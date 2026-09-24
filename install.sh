@@ -236,7 +236,6 @@ backup_configs() {
   backup_target "$HOME/.config/kitty" "$backup_root"
   backup_target "$HOME/.config/nvim" "$backup_root"
   backup_target "$HOME/.config/fcitx5" "$backup_root"
-  backup_target "$HOME/.local/share/fcitx5" "$backup_root"
   backup_target "$HOME/.zshrc" "$backup_root"
 
   echo "[OK] 备份目录：$backup_root"
